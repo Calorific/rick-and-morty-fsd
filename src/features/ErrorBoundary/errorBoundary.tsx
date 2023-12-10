@@ -1,6 +1,6 @@
 import { Component } from 'react'
-import { ErrorBoundaryProps, ErrorBoundaryState } from './types.ts'
 import { Typography } from 'antd'
+import { ErrorBoundaryProps, ErrorBoundaryState } from './types'
 
 export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
   public prevPath: string | null

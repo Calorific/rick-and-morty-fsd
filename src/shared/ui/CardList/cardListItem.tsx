@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { NavLink } from 'react-router-dom'
 import { Card, Typography } from 'antd'
-import { CardListItem as CardListItemProps } from './types.ts'
+import { CardListItem as CardListItemProps } from './types'
 
 export const CardListItem: FC<CardListItemProps> = ({ name, description, id }) => {
   return <NavLink to={`${id}`}>

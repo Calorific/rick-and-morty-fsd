@@ -23,5 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-.idea
 yarn.lock
+.firebase
